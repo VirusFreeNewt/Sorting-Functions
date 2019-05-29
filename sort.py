@@ -6,7 +6,7 @@
 # https://www.lynda.com/Software-Development-tutorials/Programming-Foundations-Algorithms/718636-2.html
 
 
-# Mostly used for demonstrative purposes, has quadratic time
+# Mostly used for demonstrative purposes, has quadratic time complexity
 # O(n^2) n = number of values
 def bubblesort(data):
 
@@ -21,7 +21,7 @@ def bubblesort(data):
 
 
 # Is a good method of sorting, but usually isn't the best
-# Has loglinear time
+# Has loglinear time complexity
 def mergesort(dataset):
 
     # if the dataset is greater than one, set the midpoint to the middle
@@ -69,8 +69,8 @@ def mergesort(dataset):
             merged_index += 1
 
 
-# On average really good and usually has quasilinear time
-# In the worst case, it has quadratic time
+# On average really good and usually has quasilinear time complexity
+# In the worst case, it has quadratic time complexity
 # Pivot: the value that things will be sorted based on
 def quicksort(dataset, first, last):  # first is the starting value and is the pivot point
 
